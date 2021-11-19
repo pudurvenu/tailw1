@@ -1,0 +1,94 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.wrapper{
+border-radius: 10px;
+border-color: black;
+}
+
+.wrapper .top_nav{
+  margin-top: 0px;
+  width: 100%;
+  height: 65px;
+  background: #fff;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+background: #fff;
+
+}
+
+.wrapper .top_nav .left{
+  display: flex;
+  align-items: center;
+background: #fff;
+}
+
+.wrapper .top_nav .left .logo p{
+  font-size: 24px;
+  font-weight: bold;
+  color: #494949;
+background: #fff;
+  font-family: "Mountains of Christmas", cursive;
+  margin-right: 25px;
+}
+
+.wrapper .top_nav .left .logo p span{
+  color: #37a000;
+background: #fff;
+  font-family: "Mountains of Christmas", cursive;
+}
+
+.wrapper .top_nav .left .search_bar input[type="text"]{
+  border: 1px solid #666666;
+  padding: 5px 10px; 
+  outline: none;
+background: #fff;
+  transition: all 0.5s linear;
+}
+
+.wrapper .top_nav .left .search_bar input[type="text"]:focus{
+  width: 250px;
+background: #fff;
+}
+
+.wrapper .top_nav .right ul{
+  display: flex;
+background: #fff;
+}
+
+.wrapper .top_nav .right ul li{
+  margin: 0 12px;
+
+background: #fff;
+}
+
+.wrapper .top_nav .right ul li:last-child{
+  background:  #37a000;
+  margin-right: 0;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.wrapper .top_nav .right ul li:hover:last-child{
+  background: #494949;
+}
+
+.wrapper .top_nav .right ul li a{
+  display: block;
+  padding: 8px 10px;
+  color: #666666;
+background: #fff;
+}
+
+.wrapper .top_nav .right ul li:last-child a{
+   color: #000;
+}
